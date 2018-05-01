@@ -1,0 +1,122 @@
+﻿Build started 04/05/2013 17:47:21.
+     1>Project "I:\Programacao\libegl3\Frogger\base.vcxproj" on node 2 (build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(299,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>InitializeBuildStatus:
+         Creating "Release\base.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../egl3/include /I../egl3/SDL/include /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Carro.cpp Flutuantes.cpp GameOver.cpp Jogo.cpp main.cpp Mapa.cpp Mapa2.cpp Menus.cpp Sapinho.cpp Sons.cpp Vidas.cpp YouWin.cpp /I../egl/ 
+         Carro.cpp
+         RELEASE: added libs: sdl.lib sdlmain.lib sdl_image.lib (VS2010+)
+     1>Carro.cpp(37): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Carro.cpp(37): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Carro.cpp(53): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Carro.cpp(53): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Carro.cpp(66): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Carro.cpp(66): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Carro.cpp(68): warning C4305: '+=' : truncation from 'double' to 'float'
+         Flutuantes.cpp
+         RELEASE: added libs: sdl.lib sdlmain.lib sdl_image.lib (VS2010+)
+     1>Flutuantes.cpp(40): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Flutuantes.cpp(40): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Flutuantes.cpp(45): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Flutuantes.cpp(45): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Flutuantes.cpp(64): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>Flutuantes.cpp(72): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Flutuantes.cpp(72): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Flutuantes.cpp(76): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Flutuantes.cpp(76): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Flutuantes.cpp(96): warning C4305: '-=' : truncation from 'double' to 'float'
+         GameOver.cpp
+         RELEASE: added libs: sdl.lib sdlmain.lib sdl_image.lib (VS2010+)
+         Jogo.cpp
+         RELEASE: added libs: sdl.lib sdlmain.lib sdl_image.lib (VS2010+)
+     1>Jogo.cpp(291): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Jogo.cpp(291): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Jogo.cpp(302): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Jogo.cpp(302): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Jogo.cpp(302): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Jogo.cpp(302): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Jogo.cpp(313): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Jogo.cpp(313): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Jogo.cpp(313): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Jogo.cpp(313): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+         main.cpp
+         RELEASE: added libs: sdl.lib sdlmain.lib sdl_image.lib (VS2010+)
+         Mapa.cpp
+         RELEASE: added libs: sdl.lib sdlmain.lib sdl_image.lib (VS2010+)
+     1>Mapa.cpp(68): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Mapa.cpp(68): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Mapa.cpp(68): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Mapa.cpp(68): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+         Mapa2.cpp
+         RELEASE: added libs: sdl.lib sdlmain.lib sdl_image.lib (VS2010+)
+     1>Mapa2.cpp(44): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Mapa2.cpp(44): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Mapa2.cpp(44): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Mapa2.cpp(44): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Mapa2.cpp(46): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Mapa2.cpp(46): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Mapa2.cpp(52): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Mapa2.cpp(52): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Mapa2.cpp(52): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Mapa2.cpp(52): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Mapa2.cpp(90): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Mapa2.cpp(90): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Mapa2.cpp(90): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Mapa2.cpp(90): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Mapa2.cpp(92): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Mapa2.cpp(92): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Mapa2.cpp(97): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Mapa2.cpp(97): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Mapa2.cpp(97): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Mapa2.cpp(97): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+         Menus.cpp
+         RELEASE: added libs: sdl.lib sdlmain.lib sdl_image.lib (VS2010+)
+         Sapinho.cpp
+         RELEASE: added libs: sdl.lib sdlmain.lib sdl_image.lib (VS2010+)
+     1>Sapinho.cpp(19): warning C4305: '=' : truncation from 'double' to 'float'
+     1>Sapinho.cpp(36): warning C4244: 'argument' : conversion from 'float' to 'long', possible loss of data
+     1>Sapinho.cpp(36): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Sapinho.cpp(36): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Sapinho.cpp(41): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>Sapinho.cpp(56): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>Sapinho.cpp(57): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>Sapinho.cpp(65): warning C4244: '-=' : conversion from 'double' to 'float', possible loss of data
+     1>Sapinho.cpp(66): warning C4244: '-=' : conversion from 'double' to 'float', possible loss of data
+     1>Sapinho.cpp(101): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>Sapinho.cpp(102): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+         Sons.cpp
+         RELEASE: added libs: sdl.lib sdlmain.lib sdl_image.lib (VS2010+)
+         Vidas.cpp
+         YouWin.cpp
+         RELEASE: added libs: sdl.lib sdlmain.lib sdl_image.lib (VS2010+)
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"bin\base.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\base.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"I:\Programacao\libegl3\Frogger\bin\base.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\bin\base.lib" /MACHINE:X86 Release\Carro.obj
+         Release\Flutuantes.obj
+         Release\GameOver.obj
+         Release\Jogo.obj
+         Release\main.obj
+         Release\Mapa.obj
+         Release\Mapa2.obj
+         Release\Menus.obj
+         Release\Sapinho.obj
+         Release\Sons.obj
+         Release\Vidas.obj
+         Release\YouWin.obj
+         Generating code
+         Finished generating code
+     1>libegl.lib(engcomp_glib.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libegl.lib(engcomp_glib.obj)' or at 'I:\Programacao\libegl3\Frogger\bin\vc100.pdb'; linking object as if no debug info
+     1>libegl.lib(imagem.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libegl.lib(imagem.obj)' or at 'I:\Programacao\libegl3\Frogger\bin\vc100.pdb'; linking object as if no debug info
+     1>libegl.lib(SDL_collide.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libegl.lib(SDL_collide.obj)' or at 'I:\Programacao\libegl3\Frogger\bin\vc100.pdb'; linking object as if no debug info
+     1>libegl.lib(som.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'libegl.lib(som.obj)' or at 'I:\Programacao\libegl3\Frogger\bin\vc100.pdb'; linking object as if no debug info
+         base.vcxproj -> I:\Programacao\libegl3\Frogger\.\bin\base.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"bin\base.exe;#1" /manifest Release\base.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\base.unsuccessfulbuild".
+         Touching "Release\base.lastbuildstate".
+     1>Done Building Project "I:\Programacao\libegl3\Frogger\base.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:51.38
